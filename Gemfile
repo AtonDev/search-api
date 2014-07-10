@@ -10,6 +10,11 @@ gem 'rails-api'
 gem 'pg'
 
 
+# BOSSman gems
+gem 'gemcutter'
+gem 'tumble'
+gem 'bossman'
+
 
 
 # To use ActiveModel has_secure_password
