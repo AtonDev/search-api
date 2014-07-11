@@ -5,5 +5,5 @@ require File.expand_path('../application', __FILE__)
 SearchApi::Application.initialize!
 
 
-require 'bossman'
-BOSSMan.application_id = "dj0yJmk9TUpxQmhWSWFUeUpoJmQ9WVdrOWRtNW5SVTloTnpZbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1iYQ--"
+#require 'bossman'
+#BOSSMan.application_id = "dj0yJmk9TUpxQmhWSWFUeUpoJmQ9WVdrOWRtNW5SVTloTnpZbWNHbzlNQS0tJnM9Y29uc3VtZXJzZWNyZXQmeD1iYQ--"

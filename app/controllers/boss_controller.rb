@@ -4,12 +4,8 @@ class BossController < ApplicationController
     query = params["search"]
 
     #BOSS stuff----
-    urls = []
-    boss = BOSSMan::Search.web("prospect park", :count => 10, :filter => "-hate")
-
-    boss.results.each do |result|
-      urls << result.url
-    end
+    urls = ['www.google.com']
+   
     #--------------
     render :json => {urls: urls}
   end

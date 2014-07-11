@@ -10,10 +10,14 @@ gem 'rails-api'
 gem 'pg'
 
 
+# oAuthetication gems
+
+gem 'oauth2'
+
 # BOSSman gems
 #gem 'gemcutter'
 #gem 'tumble'
-gem 'bossman'
+#gem 'bossman'
 
 
 

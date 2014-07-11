@@ -1,7 +1,7 @@
  SearchApi::Application.routes.draw do
 
 
-  post "s" => "boss#get_boss_results"
+  get "s" => "boss#get_boss_results"
 
 
 
