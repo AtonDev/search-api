@@ -10,14 +10,8 @@ gem 'rails-api'
 gem 'pg'
 
 
-# oAuthetication gems
 
-gem 'rest-client'
-
-# BOSSman gems
-#gem 'gemcutter'
-#gem 'tumble'
-#gem 'bossman'
+# yahoo boss
 gem 'yboss'
 
 
