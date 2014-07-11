@@ -5,7 +5,7 @@ class BossController < ApplicationController
 
     #BOSS stuff----
     urls = []
-    res = YBoss.web('q' => 'tuscany')
+    res = YBoss.web('q' => query)
     res.items.each do |i|
       urls << i.url
     end
