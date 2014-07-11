@@ -12,12 +12,13 @@ gem 'pg'
 
 # oAuthetication gems
 
-gem 'oauth2'
+gem 'rest-client'
 
 # BOSSman gems
 #gem 'gemcutter'
 #gem 'tumble'
 #gem 'bossman'
+gem 'yboss'
 
 
 
