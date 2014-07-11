@@ -11,8 +11,8 @@ gem 'pg'
 
 
 # BOSSman gems
-gem 'gemcutter'
-gem 'tumble'
+#gem 'gemcutter'
+#gem 'tumble'
 gem 'bossman'
 
 
