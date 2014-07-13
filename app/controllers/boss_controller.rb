@@ -13,4 +13,5 @@ class BossController < ApplicationController
     render :json => {urls: urls}
   end
 
+
 end
