@@ -4,10 +4,12 @@ class BossController < ApplicationController
     query = params["search"]
 
     #BOSS stuff----
-    urls = []
-    res = YBoss.web('q' => query)
-    res.items.each do |i|
-      urls << i.url
+    unless query == ""
+      urls = []
+      res = YBoss.web('q' => query)
+      res.items.each do |i|
+        urls << i.url
+      end
     end
     #--------------
     render :json => {urls: urls}
