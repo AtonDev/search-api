@@ -15,5 +15,9 @@ class BossController < ApplicationController
     render :json => {urls: urls}
   end
 
+  def ping
+    render :json => {status: 'ok'}
+  end
+
 
 end
