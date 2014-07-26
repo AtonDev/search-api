@@ -42,7 +42,7 @@ class BossController < ApplicationController
       end
     end
     #--------------
-    render :json => {urls: urls}
+    render :json => {urls: urls, dispurls: dispurls, titles: titles, abstracts: abstracts}
   end
 
 end
