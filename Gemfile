@@ -14,7 +14,8 @@ gem 'pg'
 # yahoo boss
 gem 'yboss'
 
-
+#unicorn sever
+gem 'unicorn'
 
 # newrelic for constant up time
 gem 'newrelic_rpm'
