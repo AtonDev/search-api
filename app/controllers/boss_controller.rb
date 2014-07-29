@@ -1,5 +1,9 @@
 class BossController < ApplicationController
 
+  def get_new_token
+    render :json => {token: new_token}
+  end
+
   def get_boss_results
     query = params["search"]
     urls = []
@@ -26,4 +30,12 @@ class BossController < ApplicationController
   end
 
 
+  private
+
+  def new_token
+    token = loop do 
+      random_token = SecureRandom.urlsafe_base64(nil, false)
+      break random_token unless UserToken.exists?(token: random_token)
+    end
+  end
 end
