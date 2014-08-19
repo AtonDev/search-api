@@ -66,7 +66,7 @@ class BossController < ApplicationController
         abstracts << i.abstract 
       end
     end
-    results = {urls: urls, dispurls: dispurls, titles: titles, abstracts: abstracts}.to_s
+    results = {urls: urls, dispurls: dispurls, titles: titles, abstracts: abstracts}.to_json
     render inline: "<div id='data' style='display:none;'>#{results}</div>".html_safe
     
   end
